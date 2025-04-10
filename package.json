@@ -1,0 +1,26 @@
+{
+  "name": "API",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@jridgewell/sourcemap-codec": "^1.4.15",
+    "@rollup/plugin-inject": "^5.0.3",
+    "bcryptjs": "^2.4.3",
+    "express-validator": "^7.0.1",
+    "glob": "^10.3.10",
+    "isolated-vm": "^4.7.2",
+    "jsonwebtoken": "^9.0.2",
+    "lru-cache": "^9.1.2",
+    "pg": "^8.11.3",
+    "rimraf": "^5.0.5"
+  },
+  "devDependencies": {
+    "vercel": "^41.6.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20.x"
+  }
+}
