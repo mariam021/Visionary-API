@@ -1,27 +1,24 @@
 {
-  "name": "API",
+  "name": "next-api-project",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "start": "vercel dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@jridgewell/sourcemap-codec": "^1.4.15",
-    "@rollup/plugin-inject": "^5.0.3",
-    "bcryptjs": "^2.4.3",
-    "express-validator": "^7.0.1",
-    "glob": "^10.3.10",
-    "isolated-vm": "^4.7.2",
-    "jsonwebtoken": "^9.0.2",
-    "lru-cache": "^9.1.2",
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "pg": "^8.11.3",
-    "rimraf": "^5.0.5"
+    "express-validator": "^7.0.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
-    "vercel": "^41.6.0"
-  },
-  "type": "module",
-  "engines": {
-    "npm": ">=9.0.0",
-    "node": ">=18.x"
+    "eslint": "^8.49.0",
+    "eslint-config-next": "^13.4.19"
   }
 }
